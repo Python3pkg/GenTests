@@ -4,6 +4,15 @@ GenTests
 
 A module for generating tests from data with unittest
 
+Installation:
+=============
+
+Install using pip::
+	pip install gentests
+
+Example:
+========
+
 The following test code will generate 10 tests::
 
 	import unittest
