@@ -8,6 +8,7 @@ Installation:
 =============
 
 Install using pip::
+
 	pip install gentests
 
 Example:
