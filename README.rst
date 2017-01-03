@@ -4,7 +4,7 @@ GenTests
 
 A module for generating tests from data with unittest
 
-The following test code will generate 10 tests:::
+The following test code will generate 10 tests::
 
 	import unittest
 	from gentests import gentests, vals
@@ -57,7 +57,7 @@ The following test code will generate 10 tests:::
 	if __name__ == '__main__':
 	    unittest.main()
 
-that produce the following output:::
+that produce the following output::
 
 	FFFF......
 	======================================================================
