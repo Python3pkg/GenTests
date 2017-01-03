@@ -16,5 +16,5 @@ setup(
         'Programming Language :: Python :: 3'
     ],
     keywords = 'test generation testing unit unittest data theory',
-    packages = find_packages(),
+    py_modules=['gentests'],
     install_requires = [])
