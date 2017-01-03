@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'gentests',
-    version = '1.0.0.dev1',
+    version = '1.0.0',
     description = 'A module for generating tests from data with unittest',
     url = 'https://github.com/jaredwindover/GenTests',
     author =  'Jared Windover',
     author_email = 'jaredwindover@gmail.com',
     license = 'MIT',
     classifiers = [
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Testing',
         'License :: OSI Approved :: MIT License',
