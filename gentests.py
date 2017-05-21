@@ -27,7 +27,7 @@ class _gentests(object):
     def __call__(self, cls):
         new_attrs = {}
         del_attrs = []
-        for name, attr in vars(cls).items():
+        for name, attr in list(vars(cls).items()):
             if type(attr) is _metaTestFunc:
                 del_attrs.append(name)
                 mtf = attr
@@ -35,7 +35,7 @@ class _gentests(object):
                     new_name = _getname(name, mtf.name, idx, val)
                     new_func = _getfunc(mtf.base_func, val)
                     new_attrs[new_name] = new_func
-        for name, attr in new_attrs.items():
+        for name, attr in list(new_attrs.items()):
             setattr(cls, name, attr)
         for name in del_attrs:
             delattr(cls, name)
